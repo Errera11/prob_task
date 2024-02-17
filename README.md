@@ -5,7 +5,10 @@ npm init
 ```
 ```
 npm install
-```  
+```
+```
+npx prisma migrate dev --schema=./src/db/prisma/schema.prisma
+```
 ```
 npm run start:dev
 ```
