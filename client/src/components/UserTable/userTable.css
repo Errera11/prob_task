@@ -1,0 +1,29 @@
+.grid, .user-item {
+    padding: 15px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 3px;
+    column-gap: 15px;
+}
+
+@media (max-width: 1024px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .user-item {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .user-item__avatar {
+        grid-row: span 5;
+        width: 100px;
+    }
+
+    .grid__header {
+        display: none;
+    }
+}

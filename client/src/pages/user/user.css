@@ -1,0 +1,17 @@
+
+.report-btn {
+    width: 100px;
+}
+
+.user-info__avatar {
+    width: 100px;
+}
+
+.user-info {
+    display: flex;
+}
+
+.user-info__detailed {
+    display: flex;
+    flex-direction: column;
+}

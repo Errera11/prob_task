@@ -1,0 +1,43 @@
+.main {
+    margin-left: 230px;
+    background: #F8F8F8;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.burger {
+    display: block;
+}
+
+.nav {
+    display: flex;
+    width: 230px;
+    height: 100vh;
+    flex-direction: column;
+    position: fixed;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(1rem, 16px, 1.5rem);
+}
+
+@media (max-width: 767px) {
+    .nav {
+        display: none;
+    }
+    .main {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 767px) {
+    .burger {
+        display: none;
+    }
+}

@@ -1,0 +1,13 @@
+.withValidInput {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.withValidInput.invalid {
+    border: 2px red solid;
+}
+
+.error-message {
+    color: red;
+}

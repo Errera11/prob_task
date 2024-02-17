@@ -1,0 +1,27 @@
+.burger-btn {
+    position: fixed;
+    left: unset;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    width: 50px;
+}
+
+.burger-nav {
+    backdrop-filter: blur(15px);
+    position: fixed;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.burger-nav__btns-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.burger-nav__btns-group-item {
+    cursor: pointer;
+}
