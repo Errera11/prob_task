@@ -16,7 +16,8 @@ npm run start:dev
     city: "London",
     email: "daniel@mail.ru",
     bday: "1973-01-1",
-    phone: "123456"
+    phone: "123456",
+    avatar: *some blob*
   }
 ```
 ## /client
