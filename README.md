@@ -9,7 +9,10 @@ npm install
 ```
 npm run start:dev
 ```
-### Example of create user model
+## .env properties
+* DATABASE_URL (i.e. postgresql://postgres:{password}@localhost:5432/{db_name}?schema=public)
+* PORT
+## Example of create user model
 ```
   {
     name: "Daniel",
@@ -30,3 +33,6 @@ npm install
 ```
 npm start
 ```
+## .env properties
+* REACT_APP_API_UR
+
