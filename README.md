@@ -37,5 +37,5 @@ npm install
 npm start
 ```
 ## .env properties
-* REACT_APP_API_UR
+* REACT_APP_API_URL
 
