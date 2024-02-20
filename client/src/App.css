@@ -42,7 +42,7 @@
     }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1180px) {
     .main__sort-options {
         display: grid;
         grid-template-columns: repeat(2, minmax(110px, 1fr));
