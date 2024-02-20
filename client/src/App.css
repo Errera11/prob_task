@@ -3,7 +3,7 @@
     background: #F8F8F8;
     min-height: 100vh;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 0 40px;
 }
 
 .burger {
@@ -33,6 +33,26 @@
     }
     .main {
         margin-left: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .grid__headers {
+        display: none;
+    }
+}
+
+@media (max-width: 1280px) {
+    .main__sort-options {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(110px, 1fr));
+    }
+}
+
+@media (max-width: 880px) {
+    .main__sort-options {
+        display: flex;
+        flex-direction: column;
     }
 }
 

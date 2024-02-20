@@ -1,10 +1,19 @@
 .grid, .user-item {
-    padding: 15px;
     display: grid;
+    grid-template-columns: repeat(6, 1fr);
     grid-column-start: 1;
     grid-column-end: 7;
-    grid-template-columns: repeat(6, 1fr);
     row-gap: 3px;
+    column-gap: 15px;
+}
+
+.grid__headers {
+    padding: 15px;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 7;
     column-gap: 15px;
 }
 

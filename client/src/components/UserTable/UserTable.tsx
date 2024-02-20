@@ -11,7 +11,9 @@ const UserTable: React.FC<IProps> = ({users}) => {
     const gridHeaders = ['Avatar', 'Name', 'Birthday', 'Cell number', 'Email', 'City'];
     return (
         <div className={'grid'}>
-            {gridHeaders.map((header, index) => <span key={index} className={'grid__header'}>{header}</span>)}
+            <div className={'grid__headers'}>
+                {gridHeaders.map((header, index) => <span key={index} className={'grid__header'}>{header}</span>)}
+            </div>
             {!!users?.length && users.map((user, index) => <UserItem key={index} user={user}/>)}
         </div>
     );

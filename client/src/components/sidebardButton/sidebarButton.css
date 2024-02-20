@@ -1,0 +1,29 @@
+@import "../../assets/vars.scss";
+
+.sidebar-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 41px;
+    height: 24px;
+}
+
+.sidebar-button__btn {
+    font-size: 1rem;
+    border: none;
+    background: none;
+    margin-left: 15px;
+}
+
+.sidebar-button__border {
+    border-left: 2px solid;
+    height: 39px;
+}
+
+.sidebar-button__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    align-self: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}

@@ -14,6 +14,13 @@ function App() {
                 <Routes>
                     <Route path={AppRoutes.USER + '/:id'} element={<User/>}/>
                     <Route path={AppRoutes.MAIN} element={<Main/>}/>
+                    <Route path={AppRoutes.TEST} element={<Main/>} />
+                    <Route path={AppRoutes.HELP} element={<Main/>}/>
+                    <Route path={AppRoutes.ORDER} element={<Main/>}/>
+                    <Route path={AppRoutes.SETTINGS} element={<Main/>}/>
+                    <Route path={AppRoutes.APPOINTMENT} element={<Main/>}/>
+                    <Route path={AppRoutes.PAYMENT} element={<Main/>}/>
+                    <Route path={AppRoutes.MESSAGE} element={<Main/>}/>
                 </Routes>
                 <Sidebar/>
                 <BurgerMenu />

@@ -9,6 +9,7 @@
 
 .user-info {
     display: flex;
+    padding-top: 20px;
 }
 
 .user-info__detailed {

@@ -1,19 +1,23 @@
 
+.nav {
+    min-height: 100vh;
+}
+
 .nav__title {
     color: blue;
     font-size: 1.5rem;
-    margin: 40px;
+    margin: 71px 0 0 36px;
 }
 
-.nav__button {
-    font-size: 1.2rem;
-    border: none;
-    background: none;
-    cursor: pointer;
-    margin: 10px 0;
+.nav__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 100%;
 }
 
-.nav__button_active {
-    color: blue;
-    border-left: 2px solid blue;
+.nav__content .sidebar-button__icon {
+    margin-left: 41px;
 }
+
