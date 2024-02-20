@@ -6,6 +6,7 @@
     background-color: white;
     display: flex;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .search-bar__input {
